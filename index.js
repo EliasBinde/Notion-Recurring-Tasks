@@ -9,6 +9,6 @@ app.get("/auth", (req, res) => {
   res.send(`recieved with params: ${req.query.code}`);
 });
 
-app.listen(3000, () => {
-  console.log("Example app listening on port 3000!");
+app.listen(80, () => {
+  console.log("Example app listening on port 80!");
 });
